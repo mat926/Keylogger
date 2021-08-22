@@ -140,37 +140,34 @@ Partial Class Form1
         'Timer1
         '
         '
-        'FolderBrowserDialog1
-        '
-        resources.ApplyResources(Me.FolderBrowserDialog1, "FolderBrowserDialog1")
-        '
         'NotifyIcon1
         '
-        resources.ApplyResources(Me.NotifyIcon1, "NotifyIcon1")
         Me.NotifyIcon1.ContextMenuStrip = Me.ContextMenuStrip1
+        resources.ApplyResources(Me.NotifyIcon1, "NotifyIcon1")
         '
         'ContextMenuStrip1
         '
-        resources.ApplyResources(Me.ContextMenuStrip1, "ContextMenuStrip1")
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.ToolStripMenuItem3, Me.ToolStripMenuItem2})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
         Me.ContextMenuStrip1.ShowImageMargin = False
+        resources.ApplyResources(Me.ContextMenuStrip1, "ContextMenuStrip1")
         '
         'ToolStripMenuItem1
         '
-        resources.ApplyResources(Me.ToolStripMenuItem1, "ToolStripMenuItem1")
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        resources.ApplyResources(Me.ToolStripMenuItem1, "ToolStripMenuItem1")
         '
         'ToolStripMenuItem3
         '
-        resources.ApplyResources(Me.ToolStripMenuItem3, "ToolStripMenuItem3")
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        resources.ApplyResources(Me.ToolStripMenuItem3, "ToolStripMenuItem3")
         '
         'ToolStripMenuItem2
         '
-        resources.ApplyResources(Me.ToolStripMenuItem2, "ToolStripMenuItem2")
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        resources.ApplyResources(Me.ToolStripMenuItem2, "ToolStripMenuItem2")
         '
         'Timer2
         '
@@ -188,9 +185,9 @@ Partial Class Form1
         '
         'TabPage3
         '
-        resources.ApplyResources(Me.TabPage3, "TabPage3")
         Me.TabPage3.Controls.Add(Me.Label7)
         Me.TabPage3.Controls.Add(Me.Button16)
+        resources.ApplyResources(Me.TabPage3, "TabPage3")
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
@@ -207,9 +204,9 @@ Partial Class Form1
         '
         'TabPage2
         '
-        resources.ApplyResources(Me.TabPage2, "TabPage2")
         Me.TabPage2.Controls.Add(Me.Label6)
         Me.TabPage2.Controls.Add(Me.TabControl2)
+        resources.ApplyResources(Me.TabPage2, "TabPage2")
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
@@ -221,15 +218,14 @@ Partial Class Form1
         '
         'TabControl2
         '
-        resources.ApplyResources(Me.TabControl2, "TabControl2")
         Me.TabControl2.Controls.Add(Me.TabPage5)
         Me.TabControl2.Controls.Add(Me.TabPage6)
+        resources.ApplyResources(Me.TabControl2, "TabControl2")
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
         '
         'TabPage5
         '
-        resources.ApplyResources(Me.TabPage5, "TabPage5")
         Me.TabPage5.Controls.Add(Me.Button15)
         Me.TabPage5.Controls.Add(Me.Label2)
         Me.TabPage5.Controls.Add(Me.GroupBox5)
@@ -238,6 +234,7 @@ Partial Class Form1
         Me.TabPage5.Controls.Add(Me.Button9)
         Me.TabPage5.Controls.Add(Me.GroupBox2)
         Me.TabPage5.Controls.Add(Me.GroupBox1)
+        resources.ApplyResources(Me.TabPage5, "TabPage5")
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
@@ -254,8 +251,8 @@ Partial Class Form1
         '
         'GroupBox5
         '
-        resources.ApplyResources(Me.GroupBox5, "GroupBox5")
         Me.GroupBox5.Controls.Add(Me.Button12)
+        resources.ApplyResources(Me.GroupBox5, "GroupBox5")
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.TabStop = False
         '
@@ -267,12 +264,12 @@ Partial Class Form1
         '
         'GroupBox4
         '
-        resources.ApplyResources(Me.GroupBox4, "GroupBox4")
         Me.GroupBox4.Controls.Add(Me.CheckBox26)
         Me.GroupBox4.Controls.Add(Me.CheckBox12)
         Me.GroupBox4.Controls.Add(Me.NumericUpDown1)
         Me.GroupBox4.Controls.Add(Me.CheckBox6)
         Me.GroupBox4.Controls.Add(Me.Button11)
+        resources.ApplyResources(Me.GroupBox4, "GroupBox4")
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.TabStop = False
         '
@@ -310,7 +307,6 @@ Partial Class Form1
         '
         'GroupBox3
         '
-        resources.ApplyResources(Me.GroupBox3, "GroupBox3")
         Me.GroupBox3.Controls.Add(Me.CheckBox16)
         Me.GroupBox3.Controls.Add(Me.LinkLabel1)
         Me.GroupBox3.Controls.Add(Me.CheckBox8)
@@ -319,6 +315,7 @@ Partial Class Form1
         Me.GroupBox3.Controls.Add(Me.CheckBox5)
         Me.GroupBox3.Controls.Add(Me.Button8)
         Me.GroupBox3.Controls.Add(Me.Button10)
+        resources.ApplyResources(Me.GroupBox3, "GroupBox3")
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.TabStop = False
         '
@@ -378,13 +375,13 @@ Partial Class Form1
         '
         'GroupBox2
         '
-        resources.ApplyResources(Me.GroupBox2, "GroupBox2")
         Me.GroupBox2.Controls.Add(Me.Button13)
         Me.GroupBox2.Controls.Add(Me.CheckBox4)
         Me.GroupBox2.Controls.Add(Me.Button7)
         Me.GroupBox2.Controls.Add(Me.TextBox1)
         Me.GroupBox2.Controls.Add(Me.Button6)
         Me.GroupBox2.ForeColor = System.Drawing.Color.Black
+        resources.ApplyResources(Me.GroupBox2, "GroupBox2")
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.TabStop = False
         '
@@ -403,8 +400,8 @@ Partial Class Form1
         '
         'Button7
         '
-        resources.ApplyResources(Me.Button7, "Button7")
         Me.Button7.ForeColor = System.Drawing.Color.Black
+        resources.ApplyResources(Me.Button7, "Button7")
         Me.Button7.Name = "Button7"
         Me.Button7.UseVisualStyleBackColor = True
         '
@@ -422,11 +419,11 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Controls.Add(Me.CheckBox1)
         Me.GroupBox1.Controls.Add(Me.CheckBox3)
         Me.GroupBox1.Controls.Add(Me.CheckBox2)
         Me.GroupBox1.ForeColor = System.Drawing.Color.Black
+        resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.TabStop = False
         '
@@ -452,13 +449,13 @@ Partial Class Form1
         '
         'TabPage6
         '
-        resources.ApplyResources(Me.TabPage6, "TabPage6")
         Me.TabPage6.Controls.Add(Me.Button17)
         Me.TabPage6.Controls.Add(Me.Label10)
         Me.TabPage6.Controls.Add(Me.GroupBox9)
         Me.TabPage6.Controls.Add(Me.ComboBox1)
         Me.TabPage6.Controls.Add(Me.GroupBox8)
         Me.TabPage6.Controls.Add(Me.GroupBox7)
+        resources.ApplyResources(Me.TabPage6, "TabPage6")
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
@@ -475,7 +472,6 @@ Partial Class Form1
         '
         'GroupBox9
         '
-        resources.ApplyResources(Me.GroupBox9, "GroupBox9")
         Me.GroupBox9.Controls.Add(Me.CheckBox27)
         Me.GroupBox9.Controls.Add(Me.CheckBox25)
         Me.GroupBox9.Controls.Add(Me.CheckBox24)
@@ -485,6 +481,7 @@ Partial Class Form1
         Me.GroupBox9.Controls.Add(Me.CheckBox20)
         Me.GroupBox9.Controls.Add(Me.CheckBox19)
         Me.GroupBox9.Controls.Add(Me.CheckBox17)
+        resources.ApplyResources(Me.GroupBox9, "GroupBox9")
         Me.GroupBox9.Name = "GroupBox9"
         Me.GroupBox9.TabStop = False
         '
@@ -543,17 +540,17 @@ Partial Class Form1
         '
         'ComboBox1
         '
-        resources.ApplyResources(Me.ComboBox1, "ComboBox1")
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        resources.ApplyResources(Me.ComboBox1, "ComboBox1")
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {resources.GetString("ComboBox1.Items"), resources.GetString("ComboBox1.Items1"), resources.GetString("ComboBox1.Items2")})
         Me.ComboBox1.Name = "ComboBox1"
         '
         'GroupBox8
         '
-        resources.ApplyResources(Me.GroupBox8, "GroupBox8")
         Me.GroupBox8.Controls.Add(Me.CheckBox9)
         Me.GroupBox8.Controls.Add(Me.CheckBox15)
+        resources.ApplyResources(Me.GroupBox8, "GroupBox8")
         Me.GroupBox8.Name = "GroupBox8"
         Me.GroupBox8.TabStop = False
         '
@@ -571,11 +568,11 @@ Partial Class Form1
         '
         'GroupBox7
         '
-        resources.ApplyResources(Me.GroupBox7, "GroupBox7")
         Me.GroupBox7.Controls.Add(Me.CheckBox18)
         Me.GroupBox7.Controls.Add(Me.CheckBox14)
         Me.GroupBox7.Controls.Add(Me.CheckBox13)
         Me.GroupBox7.Controls.Add(Me.CheckBox10)
+        resources.ApplyResources(Me.GroupBox7, "GroupBox7")
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.TabStop = False
         '
@@ -605,7 +602,6 @@ Partial Class Form1
         '
         'TabPage1
         '
-        resources.ApplyResources(Me.TabPage1, "TabPage1")
         Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Controls.Add(Me.Button5)
         Me.TabPage1.Controls.Add(Me.Button4)
@@ -613,6 +609,7 @@ Partial Class Form1
         Me.TabPage1.Controls.Add(Me.Button2)
         Me.TabPage1.Controls.Add(Me.Button1)
         Me.TabPage1.Controls.Add(Me.RichTextBox1)
+        resources.ApplyResources(Me.TabPage1, "TabPage1")
         Me.TabPage1.Name = "TabPage1"
         '
         'Button5
@@ -653,17 +650,16 @@ Partial Class Form1
         '
         'TabControl1
         '
-        resources.ApplyResources(Me.TabControl1, "TabControl1")
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Controls.Add(Me.TabPage3)
+        resources.ApplyResources(Me.TabControl1, "TabControl1")
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         '
         'TabPage4
         '
-        resources.ApplyResources(Me.TabPage4, "TabPage4")
         Me.TabPage4.Controls.Add(Me.Label9)
         Me.TabPage4.Controls.Add(Me.Label8)
         Me.TabPage4.Controls.Add(Me.GroupBox10)
@@ -671,6 +667,7 @@ Partial Class Form1
         Me.TabPage4.Controls.Add(Me.Label3)
         Me.TabPage4.Controls.Add(Me.Label1)
         Me.TabPage4.Controls.Add(Me.GroupBox6)
+        resources.ApplyResources(Me.TabPage4, "TabPage4")
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
@@ -688,9 +685,9 @@ Partial Class Form1
         '
         'GroupBox10
         '
-        resources.ApplyResources(Me.GroupBox10, "GroupBox10")
         Me.GroupBox10.Controls.Add(Me.TextBox3)
         Me.GroupBox10.Controls.Add(Me.CheckBox21)
+        resources.ApplyResources(Me.GroupBox10, "GroupBox10")
         Me.GroupBox10.Name = "GroupBox10"
         Me.GroupBox10.TabStop = False
         '
@@ -722,9 +719,9 @@ Partial Class Form1
         '
         'GroupBox6
         '
-        resources.ApplyResources(Me.GroupBox6, "GroupBox6")
         Me.GroupBox6.Controls.Add(Me.TextBox2)
         Me.GroupBox6.Controls.Add(Me.CheckBox11)
+        resources.ApplyResources(Me.GroupBox6, "GroupBox6")
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.TabStop = False
         '
@@ -793,7 +790,7 @@ Partial Class Form1
         Me.GroupBox6.PerformLayout()
         Me.ResumeLayout(False)
 
-End Sub
+    End Sub
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents FolderBrowserDialog1 As System.Windows.Forms.FolderBrowserDialog
     Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
